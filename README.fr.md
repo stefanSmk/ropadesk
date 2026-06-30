@@ -6,8 +6,6 @@
 
 Obligatoire pour beaucoup d'entreprises UE. Alternative à Excel — registre structuré sur votre serveur.
 
-Complète [PrivaQuest](https://github.com/stefanSmk/privaquest) : demandes des personnes vs. activités documentées.
-
 ## Fonctions
 
 - API CRUD pour les activités de traitement
@@ -24,6 +22,11 @@ php bin/ropadesk serve
 ## Pas un conseil juridique
 
 Documentation seulement.
+
+## Projets associés
+
+- [PrivaQuest](https://github.com/stefanSmk/privaquest) — demandes des personnes (Art. 12–17)
+- [CookieAudit](https://github.com/stefanSmk/cookieaudit) — scanner cookies et trackers
 
 ## Autres langues
 

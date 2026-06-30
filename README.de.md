@@ -6,8 +6,6 @@ Self-hosted **DSGVO Art. 30 Verarbeitungsverzeichnis** (Processing Activities Re
 
 Pflicht für viele Unternehmen ab 250 MA — kleinere Firmen brauchen es oft für Audits und B2B-Verträge. Statt Excel: strukturiertes Register auf eigenem Server.
 
-Ergänzt [PrivaQuest](https://github.com/stefanSmk/privaquest) — Betroffenenanfragen vs. dokumentierte Verarbeitungstätigkeiten.
-
 ## Funktionen
 
 - CRUD-API für Verarbeitungstätigkeiten
@@ -31,6 +29,11 @@ curl -X POST http://127.0.0.1:8080/api/activities \
 ## Kein Rechtsrat
 
 Dokumentation — Rechtsgrundlagen und Fristen müsst ihr selbst festlegen.
+
+## Verwandte Projekte
+
+- [PrivaQuest](https://github.com/stefanSmk/privaquest) — Betroffenenanfragen (Art. 12–17)
+- [CookieAudit](https://github.com/stefanSmk/cookieaudit) — Cookie- und Tracker-Scanner
 
 ## Weitere Sprachen
 

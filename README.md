@@ -1,12 +1,13 @@
 # RopaDesk
 
+![CI](https://github.com/stefanSmk/ropadesk/actions/workflows/ci.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+
 **Languages:** English · [Deutsch](./README.de.md) · [Français](./README.fr.md)
 
 Self-hosted **GDPR Art. 30 processing activities register** (Verarbeitungsverzeichnis / registre des activités).
 
 EU companies with 250+ employees must maintain this. Smaller firms often need it too — for audits, B2B contracts, or DPO requests. Most teams track it in Excel. RopaDesk gives you a structured register on your own server.
-
-Pairs well with [PrivaQuest](https://github.com/stefanSmk/privaquest) (data subject requests) — requests vs. what you actually process.
 
 ## Features
 
@@ -82,6 +83,11 @@ php tests/smoke.php
 ## Not legal advice
 
 Helps you **document** processing. You still need to determine lawful bases and retention yourself.
+
+## Related projects
+
+- [PrivaQuest](https://github.com/stefanSmk/privaquest) — data subject requests (Art. 12–17)
+- [CookieAudit](https://github.com/stefanSmk/cookieaudit) — cookie & tracker scanner
 
 ## Other languages
 
