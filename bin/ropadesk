@@ -1,0 +1,28 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+require dirname(__DIR__) . '/src/Database.php';
+require dirname(__DIR__) . '/src/ActivityRepository.php';
+
+use RopaDesk\ActivityRepository;
+use RopaDesk\Database;
+
+$repo = new ActivityRepository(new Database(getenv('ROPADESK_DB') ?: 'ropadesk.db'));
+
+if (($argv[1] ?? '') === 'export') {
+    echo $repo->exportJson() . PHP_EOL;
+    exit(0);
+}
+
+if (($argv[1] ?? '') === 'serve') {
+    $host = getenv('ROPADESK_HOST') ?: '127.0.0.1';
+    $port = getenv('ROPADESK_PORT') ?: '8080';
+    echo "RopaDesk http://{$host}:{$port}" . PHP_EOL;
+    passthru('php -S ' . escapeshellarg("{$host}:{$port}") . ' -t ' . escapeshellarg(dirname(__DIR__) . '/public'));
+    exit(0);
+}
+
+fwrite(STDERR, "Usage: ropadesk serve | ropadesk export\n");
+exit(1);

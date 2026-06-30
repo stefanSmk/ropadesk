@@ -1,0 +1,8 @@
+{
+    "name": "stefanSmk/ropadesk",
+    "description": "Self-hosted GDPR Art. 30 processing activities register",
+    "type": "project",
+    "license": "MIT",
+    "require": { "php": "^8.1" },
+    "autoload": { "psr-4": { "RopaDesk\\": "src/" } }
+}
