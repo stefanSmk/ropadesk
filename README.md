@@ -1,5 +1,7 @@
 # RopaDesk
 
+**Languages:** English · [Deutsch](./README.de.md) · [Français](./README.fr.md)
+
 Self-hosted **GDPR Art. 30 processing activities register** (Verarbeitungsverzeichnis / registre des activités).
 
 EU companies with 250+ employees must maintain this. Smaller firms often need it too — for audits, B2B contracts, or DPO requests. Most teams track it in Excel. RopaDesk gives you a structured register on your own server.
@@ -83,6 +85,7 @@ Helps you **document** processing. You still need to determine lawful bases and 
 
 ## Other languages
 
+- **English** — this file (`README.md`)
 - [Deutsch](./README.de.md)
 - [Français](./README.fr.md)
 

@@ -1,5 +1,7 @@
 # RopaDesk
 
+**Sprachen:** [English](./README.md) · Deutsch · [Français](./README.fr.md)
+
 Self-hosted **DSGVO Art. 30 Verarbeitungsverzeichnis** (Processing Activities Register).
 
 Pflicht für viele Unternehmen ab 250 MA — kleinere Firmen brauchen es oft für Audits und B2B-Verträge. Statt Excel: strukturiertes Register auf eigenem Server.

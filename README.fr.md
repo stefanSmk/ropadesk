@@ -1,5 +1,7 @@
 # RopaDesk
 
+**Langues :** [English](./README.md) · [Deutsch](./README.de.md) · Français
+
 **Registre des activités de traitement** (Art. 30 RGPD) self-hosted.
 
 Obligatoire pour beaucoup d'entreprises UE. Alternative à Excel — registre structuré sur votre serveur.
